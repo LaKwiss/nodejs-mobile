@@ -76,6 +76,8 @@ mkdir -p $HEADERS/libplatform
 cp deps/v8/include/libplatform/*.h $HEADERS/libplatform/
 mkdir -p $HEADERS/cppgc
 cp deps/v8/include/cppgc/*.h $HEADERS/cppgc/
+mkdir -p $HEADERS/cppgc/internal
+cp deps/v8/include/cppgc/internal/*.h $HEADERS/cppgc/internal/
 
 # zlib headers
 cp deps/zlib/zconf.h $HEADERS/zconf.h
